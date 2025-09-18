@@ -1,0 +1,15 @@
+[package]
+name = "creepy-elctron"
+version = "1.0.0"
+authors = []
+
+addresses="0xea7cb2c0977bced3a39185903c6d0c3cb45ac3c0d8b2d621aace429c0dabb345"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
